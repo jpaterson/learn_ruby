@@ -2,10 +2,11 @@
 
 # Again, a file with a specific name needs to be created, in this case "temperature.rb".
 # $ touch temperature.rb
-require "temperature.rb"
+require "temperature_object.rb"
+# require_relative "temperature"
 
 # Now maybe we can talk more about the lines we ignored last problem.
-# describe is a method that takes a sting and a do-end block.
+# describe is a method that takes a string and a do-end block.
 # The method is given to use by RSpec.
 # The string should describe what is being tested in the do-end block. 
 describe "temperature conversion functions" do
@@ -64,3 +65,4 @@ end
 # 
 # 1. One degree fahrenheit is 5/9 of one degree celsius
 # 2. The freezing point of water is 0 degrees celsius but 32 degrees fahrenheit
+
